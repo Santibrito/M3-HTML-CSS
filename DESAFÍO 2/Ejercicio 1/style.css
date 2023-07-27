@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+
+:root {
+    --bold: 700;
+    --regular: 400;
+    --semibold: 600;
+    --primaryColor: #04146c;
+    --secondaryColor: #414166;
+    --backgroundColor: #15163d;
+}
+
+.page-login {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("src/img/M4-desafio1-fondo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.login-bg {
+    padding: 20px;
+    background-image: url("src/img/M4-desafio1-fondo-form.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box-form-login {
+    background-color: white;
+    width: 600px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 500px;
+}
+
+.form h2 {
+    font-weight: var(--bold);
+    color: var(--primaryColor);
+    font-size: 32.64px;
+    text-align: center;
+}
+
+.form input,
+button {
+    height: 50px;
+}
+
+.form input {
+    font-weight: var(--regular);
+    color: var(--secondaryColor);
+    font-size: 22.66px;
+}
+
+.form button {
+    font-weight: var(--semibold);
+    background-color: var(--backgroundColor);
+    border: none;
+    color: white;
+    font-size: 22.66px;
+}

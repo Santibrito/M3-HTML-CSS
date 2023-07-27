@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bold: 700;
+    --regular: 400;
+    --primaryColor: #0a2ff1;
+    --secondaryColor: #04146c;
+}
+
+
+.container-question{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    height: 90vh;
+}
+
+.text-question{
+    padding: 50px;
+}
+.text-question h1{
+    font-family: 'Roboto Slab', serif;
+    font-size: 45.33px;
+    font-weight: var(--bold);
+    color: var(--primaryColor);
+    margin-bottom: 20px;
+}
+
+.text-question h5{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: var(--bold);
+    color: var(--secondaryColor);
+    margin-bottom: 20px;
+}
+
+
+.text-question p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: var(--regular);
+    color: var(--secondaryColor);
+    margin-bottom: 20px;
+}
+
+.container-img{
+    background-image: url("src/img/M5-Desafio3-img.png");
+    background-size: cover;
+    height: 100vh;
+    background-position: c;
+}
+
+.container-footer{
+    display: flex;
+    height: 10vh;
+    padding: 10px;
+    background-color: #3958f1;
+}
+
+.container-footer img{
+    display: flex;
+    justify-content: end;
+}
